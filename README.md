@@ -90,13 +90,16 @@ that `a` is `4`.
 
 ## Conclusion
 
-With the _essential three_ expressions under you command, we're going to start
-rapidly building up the richness of things you can cover using expressions. In
+With the _essential three_ expressions under your control, we're going to start
+rapidly building up the richness of things you can do using expressions. In
 fact, in the rest of this module, **everything** will be an expression of some
 sort. It turns out we can write programs of high levels of sophistication
 without using anything more than expressions.
 
-> **FUTURE DIRECTIONS** Whole programming languages are built around executing
+> **FUTURE DIRECTIONS**: Whole programming languages are built around executing
 > by means of evaluating expressions! Languages that work this way are called
 > "functional languages" and they are some of the first programming languages
 > ever created.
+
+Lets expand the world of _constants_ we know about beyond numbers. While
+they're handy when we're learning, there's a lot more to say about the world!
