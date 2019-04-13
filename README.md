@@ -13,14 +13,11 @@ by being boring, yet profound.
 It retrieves the value that we set with the _assignment expression_ from the
 name or "bare word" we assigned.
 
-> **NOTE**: When we say "variable lookup" that also includes symbolic
-> constants.
-
 ## Define the Variable Lookup Expression
 
 To lookup the value in a variable we simply type it.
 
-```ruby
+```Python
 # Assignment expression that returns 32
 age = 32 #=> 32
 
@@ -29,18 +26,17 @@ age #=> 32
 ```
 
 That’s it. The values we associate with the assignment expression can be gotten
-back out of their variable or constant by simply typing the variable or
-constant’s name.
+back out of their variable by simply typing the variable's name.
 
 ## Variable Lookup as Conversation
 
 Think about, again, a baby learning to talk. They learn the constant or value
-of their parent (_constant expression_). The parent repeats a thousand times
-their (bare word) name: `MAMA` or `DADA`. Eventually a magical thing happens in
+of their parent. The parent repeats a thousand times
+their (bare word) name: `mama` or `dada`. Eventually a magical thing happens in
 the baby's brain and they realize...
 
-```ruby
-MAMA = :the_person_in_front_of_me_who_keeps_saying_mama
+```Python
+mama = :the_person_in_front_of_me_who_keeps_saying_mama
 ```
 
 > **ASIDE**: We snuck in a new type of constant just then called a `Symbol`.
@@ -49,7 +45,7 @@ MAMA = :the_person_in_front_of_me_who_keeps_saying_mama
 > numbers!
 
 
-And then at some random moment the baby repeats the (bare word) name: `MAMA`.
+And then at some random moment the baby repeats the (bare word) name: `mama`.
 Suddenly the parents stream tears of joy. With a bit more practice baby will be
 learning from "Sesame Street," from parents and friends, to grow their world of
 bare-words so that they can have richer experiences in the world.
@@ -73,16 +69,16 @@ If you think about it, most of children's education until early elementary
 school is giving them thousands of assignment expressions so they can
 participate in the world: "Red," "one," "eleven," "far."
 
-It turns out, Ruby is no different.
+It turns out, Python is no different.
 
-In a brand new session of IRB, Ruby knows about rules of expression evaluation,
+In a brand new session of the Python interpreter, Python knows about rules of expression evaluation,
 some operators, and some special words. Everything else you have to "load into"
-Ruby. The tool for this is the _assignment expression_
+Python. The tool for this is the _assignment expression_
 
-Let’s compare teaching a baby a four-legged animal's name and teaching Ruby
+Let’s compare teaching a baby a four-legged animal's name and teaching Python
 that `a` is `4`.
 
-|Expression|Real-Life Conversation|Ruby Conversation|
+|Expression|Real-Life Conversation|Python Conversation|
 |----------|----------------------|-----------------|
 |Value Expression|Parent points "Doggie"|`4 #=> 4`|
 |Assignment Expression|"Doggie" = ![Puppy Picture](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-variable-lookup-expression/small_puppy.JPG)|`a = 4 #=> 4`|
